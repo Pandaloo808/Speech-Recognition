@@ -2,7 +2,7 @@ x=0;
 y=0;
 draw_circle="";
 draw_rect="";
-var speechRecongition=window.webkitSpeechRecognition;
+var SpeechRecongition=window.webkitSpeechRecognition;
 var recognition=new SpeechRecognition();
 function start(){
   document.getElementById("status").innerHTML="system is listening please speeck";
